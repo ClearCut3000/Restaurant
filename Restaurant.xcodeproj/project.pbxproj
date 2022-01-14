@@ -56,15 +56,47 @@
 		36C8787F2792087C00BA161C /* Restaurant */ = {
 			isa = PBXGroup;
 			children = (
-				36C878802792087C00BA161C /* AppDelegate.swift */,
-				36C878822792087C00BA161C /* SceneDelegate.swift */,
-				36C878842792087C00BA161C /* ViewController.swift */,
-				36C878862792087C00BA161C /* Main.storyboard */,
-				36C878892792088300BA161C /* Assets.xcassets */,
-				36C8788B2792088300BA161C /* LaunchScreen.storyboard */,
-				36C8788E2792088300BA161C /* Info.plist */,
+				36C878972792098500BA161C /* Resourses */,
+				36C87894279208EF00BA161C /* SupportedFiles */,
+				36C878962792092100BA161C /* Controllers */,
+				36C878952792090D00BA161C /* Storyboards */,
 			);
 			path = Restaurant;
+			sourceTree = "<group>";
+		};
+		36C87894279208EF00BA161C /* SupportedFiles */ = {
+			isa = PBXGroup;
+			children = (
+				36C878802792087C00BA161C /* AppDelegate.swift */,
+				36C878822792087C00BA161C /* SceneDelegate.swift */,
+				36C8788E2792088300BA161C /* Info.plist */,
+			);
+			path = SupportedFiles;
+			sourceTree = "<group>";
+		};
+		36C878952792090D00BA161C /* Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				36C8788B2792088300BA161C /* LaunchScreen.storyboard */,
+				36C878862792087C00BA161C /* Main.storyboard */,
+			);
+			path = Storyboards;
+			sourceTree = "<group>";
+		};
+		36C878962792092100BA161C /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				36C878842792087C00BA161C /* ViewController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		36C878972792098500BA161C /* Resourses */ = {
+			isa = PBXGroup;
+			children = (
+				36C878892792088300BA161C /* Assets.xcassets */,
+			);
+			path = Resourses;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -291,7 +323,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = CJ7JF497NG;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = Restaurant/Info.plist;
+				INFOPLIST_FILE = Restaurant/SupportedFiles/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
@@ -319,7 +351,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = CJ7JF497NG;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = Restaurant/Info.plist;
+				INFOPLIST_FILE = Restaurant/SupportedFiles/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
