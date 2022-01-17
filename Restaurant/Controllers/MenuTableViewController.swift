@@ -14,7 +14,7 @@ class MenuTableViewController: UITableViewController {
   var categories = [String]()
   let cellManager = CellManager()
 
-  //MARK: - ViewController lifecycle
+  //MARK: - UIViewController lifecycle methods
   override func viewDidLoad() {
     super.viewDidLoad()
     networkManager.getCategories { categories, error in
@@ -31,6 +31,14 @@ class MenuTableViewController: UITableViewController {
         self.tableView.reloadData()
       }
     }
+  }
+
+  //MARK: - NAvigation methods
+  override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+    guard segue.identifier == "ItemSegue" else { return }
+    guard let categoryIndex = tableView.indexPathForSelectedRow else { return }
+    let destination = segue.destination as! ItemTableViewController
+    destination.category = categories[categoryIndex.row]
   }
 
 //MARK: - TableViewDataSource
