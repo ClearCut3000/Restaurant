@@ -11,6 +11,9 @@
 		361B37D127973F45009D9424 /* OrderTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 361B37D027973F45009D9424 /* OrderTableViewController.swift */; };
 		361B37D327973FC3009D9424 /* Order.swift in Sources */ = {isa = PBXBuildFile; fileRef = 361B37D227973FC3009D9424 /* Order.swift */; };
 		361B37D527974256009D9424 /* OrderManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 361B37D427974256009D9424 /* OrderManager.swift */; };
+		361B37D727980DB8009D9424 /* OrderConfirmationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 361B37D627980DB8009D9424 /* OrderConfirmationViewController.swift */; };
+		361B37D92798121B009D9424 /* Duble+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 361B37D82798121B009D9424 /* Duble+Extension.swift */; };
+		361B37DB279853AD009D9424 /* PreparationTime.swift in Sources */ = {isa = PBXBuildFile; fileRef = 361B37DA279853AD009D9424 /* PreparationTime.swift */; };
 		36C878812792087C00BA161C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36C878802792087C00BA161C /* AppDelegate.swift */; };
 		36C878832792087C00BA161C /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36C878822792087C00BA161C /* SceneDelegate.swift */; };
 		36C878882792087C00BA161C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 36C878862792087C00BA161C /* Main.storyboard */; };
@@ -31,6 +34,9 @@
 		361B37D027973F45009D9424 /* OrderTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrderTableViewController.swift; sourceTree = "<group>"; };
 		361B37D227973FC3009D9424 /* Order.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Order.swift; sourceTree = "<group>"; };
 		361B37D427974256009D9424 /* OrderManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrderManager.swift; sourceTree = "<group>"; };
+		361B37D627980DB8009D9424 /* OrderConfirmationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrderConfirmationViewController.swift; sourceTree = "<group>"; };
+		361B37D82798121B009D9424 /* Duble+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Duble+Extension.swift"; sourceTree = "<group>"; };
+		361B37DA279853AD009D9424 /* PreparationTime.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PreparationTime.swift; sourceTree = "<group>"; };
 		36C8787D2792087C00BA161C /* Restaurant.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Restaurant.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		36C878802792087C00BA161C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		36C878822792087C00BA161C /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -115,6 +121,7 @@
 				36C878AB2794AAA000BA161C /* MenuTableViewController.swift */,
 				361B37CE27970BAC009D9424 /* ItemViewController.swift */,
 				361B37D027973F45009D9424 /* OrderTableViewController.swift */,
+				361B37D627980DB8009D9424 /* OrderConfirmationViewController.swift */,
 			);
 			path = Controllers;
 			sourceTree = "<group>";
@@ -134,6 +141,7 @@
 				36C878A22794A47100BA161C /* MenuItem.swift */,
 				36C878A62794A4B700BA161C /* MenuItems.swift */,
 				361B37D227973FC3009D9424 /* Order.swift */,
+				361B37DA279853AD009D9424 /* PreparationTime.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -152,6 +160,7 @@
 			isa = PBXGroup;
 			children = (
 				36C878A92794A74B00BA161C /* URL+Extension.swift */,
+				361B37D82798121B009D9424 /* Duble+Extension.swift */,
 			);
 			path = Extensions;
 			sourceTree = "<group>";
@@ -231,7 +240,10 @@
 				36C878AC2794AAA000BA161C /* MenuTableViewController.swift in Sources */,
 				36C878A32794A47100BA161C /* MenuItem.swift in Sources */,
 				36C878A72794A4B700BA161C /* MenuItems.swift in Sources */,
+				361B37DB279853AD009D9424 /* PreparationTime.swift in Sources */,
+				361B37D92798121B009D9424 /* Duble+Extension.swift in Sources */,
 				361B37D527974256009D9424 /* OrderManager.swift in Sources */,
+				361B37D727980DB8009D9424 /* OrderConfirmationViewController.swift in Sources */,
 				361B37D127973F45009D9424 /* OrderTableViewController.swift in Sources */,
 				36C8789D2793581B00BA161C /* NetworkManager.swift in Sources */,
 				36C878A12794A14000BA161C /* CellManager.swift in Sources */,

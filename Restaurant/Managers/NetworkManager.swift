@@ -13,7 +13,7 @@ class NetworkManager {
   let baseURL = URL(string: "http://mda.getoutfit.co:8090")!
 
 
-  //MARK: - Methods
+  //MARK: - Get Methods
   func getCategories(completion: @escaping ([String]?, Error?) -> Void) {
     let url = baseURL.appendingPathComponent("categories")
     let task = URLSession.shared.dataTask(with: url) { data, response, error in
@@ -68,6 +68,35 @@ class NetworkManager {
       }
       let image = UIImage(data: data)
       completion(image, nil)
+    }
+    task.resume()
+  }
+
+  //MARK: - Post Methods
+  func submitOrder (forMenuIds menuIds: [Int], completion: @escaping (Int?, Error?) -> Void) {
+    let url = baseURL.appendingPathComponent("order")
+    var request = URLRequest(url: url)
+    request.httpMethod = "POST"
+    request.setValue("application/json", forHTTPHeaderField: "Content-Type")
+    let data = ["menuIds": menuIds]
+    let encoder = JSONEncoder()
+    let jsonData = try? encoder.encode(data)
+    request.httpBody = jsonData
+    let task = URLSession.shared.dataTask(with: request) { data, _, error in
+      guard error == nil else {
+        completion (nil, error)
+        return
+      }
+      guard let data = data else {
+        completion( nil, nil)
+        return
+      }
+      let decoder = JSONDecoder()
+      guard let preparationTime = try? decoder.decode(PreparationTime.self, from: data) else {
+        completion (nil, nil)
+        return
+      }
+      completion(preparationTime.prepTime, nil)
     }
     task.resume()
   }
