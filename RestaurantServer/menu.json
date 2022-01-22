@@ -1,0 +1,218 @@
+[
+  {
+    "id": 1,
+    "name": "Spaghetti and Meatballs",
+    "description": "Seasoned meatballs on top of freshly-made spaghetti. Served with a robust tomato sauce.",
+    "price": 9.0,
+    "category": "entrees",
+    "estimated_prep_time": 20
+  },
+  {
+    "id": 2,
+    "name": "Margherita Pizza",
+    "description": "Tomato sauce, fresh mozzarella, basil, and extra-virgin olive oil.",
+    "price": 10.0,
+    "category": "entrees",
+    "estimated_prep_time": 30
+  },
+  {
+    "id": 3,
+    "name": "Grilled Steelhead Trout",
+    "description": "Pacific steelhead trout with lettuce, tomato, and red onion.",
+    "price": 12.75,
+    "category": "entrees",
+    "estimated_prep_time": 15
+  },
+  {
+    "id": 4,
+    "name": "Ham and mushroom ravioli",
+    "description": "House-made ravioli filled with pine nuts, parmesan, ham, and mushrooms. Served over tomato sauce.",
+    "price": 8.0,
+    "category": "appetizers",
+    "estimated_prep_time": 12
+  },
+  {
+    "id": 5,
+    "name": "Chicken Noodle Soup",
+    "description": "Chicken simmered alongside yellow onions, carrots, celery, and bay leaves.",
+    "price": 3.5,
+    "category": "soups",
+    "estimated_prep_time": 5
+  },
+  {
+    "id": 6,
+    "name": "Italian Salad",
+    "description": "Garlic, red onions, tomatoes, mushrooms, and olives on top of romaine lettuce.",
+    "price": 5.0,
+    "category": "salads",
+    "estimated_prep_time": 5
+  },
+  {
+    "id": 7,
+    "name": "Onion soup",
+    "description": "Warm, cozy, and flavorful, this French onion soup is prepared with beef stock and caramelized onions.",
+    "price": 7.5,
+    "category": "soups",
+    "estimated_prep_time": 15
+  },
+  {
+    "id": 8,
+    "name": "Mushroom cream soup",
+    "description": "Creamy mushroom soup. With mushroom-topped ciabatta for dunking.",
+    "price": 5.5,
+    "category": "soups",
+    "estimated_prep_time": 15
+  },
+  {
+    "id": 9,
+    "name": "Greek salad",
+    "description": "An authentic Greek salad from Oia, Santorini in Greece.",
+    "price": 13.5,
+    "category": "salads",
+    "estimated_prep_time": 10
+  },
+  {
+    "id": 10,
+    "name": "Prawn cocktail",
+    "description": "Prawn cocktail, also known as shrimp cocktail, is a seafood dish consisting of shelled, cooked prawns in a Marie Rose sauce or cocktail sauce, served in a glass.",
+    "price": 2.5,
+    "category": "salads",
+    "estimated_prep_time": 20
+  },
+  {
+    "id": 11,
+    "name": "Garlic bread",
+    "description": "Warm garlic bread makes a delicious addition to almost any meal.",
+    "price": 1.5,
+    "category": "appetizers",
+    "estimated_prep_time": 5
+  },
+  {
+    "id": 12,
+    "name": "Nachos",
+    "description": "Heated tortilla chips, covered with melted cheese.",
+    "price": 5.5,
+    "category": "appetizers",
+    "estimated_prep_time": 7
+  },
+  {
+    "id": 13,
+    "name": "Potato pancakes",
+    "description": "Shallow-fried pancakes of grated potatos.",
+    "price": 3.5,
+    "category": "appetizers",
+    "estimated_prep_time": 5
+  },
+  {
+    "id": 14,
+    "name": "Roast",
+    "description": "All our roasts are served with crispy roast potatoes, golden Yorkshires, honey-roasted parsnips, root vegetable mash, garden peas, carrots, + bottomless favouritessavoy cabbage, stuffing and our signature rich red wine gravy.",
+    "price": 11.5,
+    "category": "entrees",
+    "estimated_prep_time": 25
+  },
+  {
+    "id": 15,
+    "name": "Pork chop",
+    "description": "Pork chop",
+    "price": 7.5,
+    "category": "entrees",
+    "estimated_prep_time": 10
+  },
+  {
+    "id": 16,
+    "name": "Cherry pie",
+    "description": "Sweet cherry pie",
+    "price": 1.5,
+    "category": "desserts",
+    "estimated_prep_time": 5
+  },
+  {
+    "id": 17,
+    "name": "Cheesecake",
+    "description": "Cheesecake is a sweet dessert consisting of one or more layers. ",
+    "price": 1.5,
+    "category": "desserts",
+    "estimated_prep_time": 15
+  },
+  {
+    "id": 18,
+    "name": "Tiramisu",
+    "description": "Tiramisu is a cool, refreshing Italian dessert that once tasted, leaves an indelible impression on you.",
+    "price": 2.5,
+    "category": "desserts",
+    "estimated_prep_time": 5
+  },
+  {
+    "id": 19,
+    "name": "Homemade apple tart",
+    "description": "desserts",
+    "price": 1.5,
+    "category": "Apple tart is my family's favorite dessert.",
+    "estimated_prep_time": 5
+  },
+  {
+    "id": 20,
+    "name": "Tea",
+    "description": "Tea from around the world.",
+    "price": 1.5,
+    "category": "beverages",
+    "estimated_prep_time": 5
+  },
+  {
+    "id": 21,
+    "name": "Coffee",
+    "description": "Coffee is a brewed drink prepared from roasted coffee beans, the seeds of berries from certain Coffea species.",
+    "price": 1.5,
+    "category": "beverages",
+    "estimated_prep_time": 5
+  },
+  {
+    "id": 22,
+    "name": "Lemonade",
+    "description": "Lemonade is a sweetened lemon-flavored beverage.",
+    "price": 1.5,
+    "category": "beverages",
+    "estimated_prep_time": 5
+  },
+  {
+    "id": 23,
+    "name": "Semi-dry wine",
+    "description": "Lambrusco",
+    "price": 5.0,
+    "category": "wines",
+    "estimated_prep_time": 5
+  },
+  {
+    "id": 24,
+    "name": "Semi-sweet wine",
+    "description": "Cabernet Sauvignon",
+    "price": 1.5,
+    "category": "wines",
+    "estimated_prep_time": 5
+  },
+  {
+    "id": 25,
+    "name": "Sparkling wine",
+    "description": "Schramsberg 2016 Blanc de Blancs Brut at Vivino",
+    "price": 7.5,
+    "category": "wines",
+    "estimated_prep_time": 5
+  },
+  {
+    "id": 26,
+    "name": "Tuna and egg sandwich",
+    "description": "This is just an old-fashioned tuna egg sandwich!",
+    "price": 2.5,
+    "category": "sandwiches",
+    "estimated_prep_time": 10
+  },
+  {
+    "id": 27,
+    "name": "Cheddar and bacon burger",
+    "description": "Fresh bison burgers make a tasty alternative to beef, mixed with Italian seasoning, grilled perfectly, and topped with bacon and Cheddar! ",
+    "price": 5.5,
+    "category": "sandwiches",
+    "estimated_prep_time": 10
+  }
+]

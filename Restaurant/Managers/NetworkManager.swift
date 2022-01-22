@@ -10,7 +10,10 @@ import UIKit
 
 class NetworkManager {
   //MARK: - Properties
-  let baseURL = URL(string: "http://mda.getoutfit.co:8090")!
+  //  uncomment the line below to work with the remote server
+  //  let baseURL = URL(string: "http://mda.getoutfit.co:8090")!
+  // comment out the line below to work with a remote server
+  let baseURL = URL(string: "http://localhost:8090")!
 
 
   //MARK: - Get Methods

@@ -16,10 +16,16 @@ class CellManager {
   func configure(_ cell: UITableViewCell, witn category: String) {
     cell.textLabel?.text = category.localizedCapitalized
   }
-
+  
   func configure(_ cell: UITableViewCell, witn menuItem: MenuItem, for tableView: UITableView? = nil, indexPath: IndexPath) {
+    let items = Dictionary( OrderManager.shared.order.menuItems.map {($0.name, 1)}, uniquingKeysWith: + )
     cell.textLabel?.text = menuItem.name
-    cell.detailTextLabel?.text = menuItem.price.formattedHundreds
+    let count = items[menuItem.name]
+    if count != nil {
+      cell.detailTextLabel?.text = "\(count!) by " + menuItem.price.formattedHundreds
+    } else {
+      cell.detailTextLabel?.text = menuItem.price.formattedHundreds
+    }
     if let image = menuItem.image {
       cell.imageView?.image = image
     } else {
